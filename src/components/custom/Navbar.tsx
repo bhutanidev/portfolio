@@ -24,7 +24,7 @@ const Navbar = () => {
                 <Link
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className={`p-1 rounded-3xl  text-white text-s hover:bg-primary hover:text-black transition`}
+                className={` px-3 p-1 rounded-3xl  text-white text-s hover:bg-primary hover:text-black transition`}
                 >
                 {item}
                 </Link>

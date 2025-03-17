@@ -7,19 +7,19 @@ const data = {
         },        {
             "name":"codeforces",
             "icon":"/codeforces.png",
-            "url":"https://leetcode.com/u/devbhutani10/"
+            "url":"https://codeforces.com/profile/devbhutani10"
         },        {
             "name":"github",
             "icon":"/github.png",
-            "url":"https://leetcode.com/u/devbhutani10/"
+            "url":"https://github.com/bhutanidev"
         },        {
             "name":"linkedin",
             "icon":"/linkedin.png",
-            "url":"https://leetcode.com/u/devbhutani10/"
+            "url":"https://www.linkedin.com/in/dev-bhutani-9b983428b/"
         },        {
             "name":"x.com",
             "icon":"/xcom.png",
-            "url":"https://leetcode.com/u/devbhutani10/"
+            "url":"https://x.com/dev_bhutan10"
         },
     ]
 }
