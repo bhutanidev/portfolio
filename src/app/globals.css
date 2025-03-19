@@ -43,6 +43,7 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   --font-display:"Tomorrow";
+  --color-custom-blue:rgba(88, 49, 217, 1)
 }
 
 :root {

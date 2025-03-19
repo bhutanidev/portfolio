@@ -10,7 +10,7 @@ export default function Footer() {
    }
     
   return (
-    <footer className="bg-muted/50 mb-3 text-white p-4 rounded-xl max-w-4xl mx-auto flex items-center justify-between">
+    <footer className="bg-muted/50 mb-3 -mt-4 text-white p-4 rounded-xl max-w-4xl mx-auto flex items-center justify-between">
       {/* Navigation Links */}
       <nav className="flex space-x-6 text-lg">
         <p className=" font-mono">Developed By <span className=" text-primary">Dev Bhutani</span>!</p>
