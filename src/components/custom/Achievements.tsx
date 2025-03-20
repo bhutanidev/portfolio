@@ -10,7 +10,7 @@ const Achievements = () => {
 
     <section id="achievements" className="  pt-20 text-white flex flex-col items-center">
       <motion.h2
-        className="font-display text-4xl font-bold text-primary mb-10"
+        className="font-display text-5xl font-bold text-primary md:mb-10"
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ repeat:0, duration: 0.8 }} 

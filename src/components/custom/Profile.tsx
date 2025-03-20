@@ -90,7 +90,7 @@ export default function ProfileCard() {
           A full stack developer and competitive programmer, transforming challenges into opportunities for growth. Passionate about exploring new technologies and pushing boundaries.
           </p>
           <p className="mt-2 font-mono text-gray-300">
-          Currently pursuing my B.Tech at the University College of Information and Communication Technology, GGSIPU.
+          Currently pursuing my B.Tech at the University School of Information Communication and Technology, GGSIPU.
           </p>
           <p className="mt-2 font-mono text-gray-300">
           Mastering the balance between college attendance and upskilling.
