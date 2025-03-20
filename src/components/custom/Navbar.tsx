@@ -9,7 +9,7 @@ import { usePathname } from 'next/navigation';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname()
-
+  const navlinks = ['Home', 'Skills', 'Projects', 'Achievements','Contact']
   return (
     <header className="fixed top-0 left-0 w-full z-50  ">
       <nav className="backdrop-blur-lg bg-white/10 border-b border-white/20 shadow-md px-5 py-3 ml-auto mx-2 flex items-center justify-around w-15 md:w-1/2 md:max-w-1/2  md:mx-auto rounded-2xl mt-3">
@@ -18,7 +18,7 @@ const Navbar = () => {
     {!isOpen &&     
            (<div className="hidden gap-6 md:flex md:items-center md:justify-around ">
           {
-            ['Home', 'Skills', 'Projects', 'Achievements','Contact'].map((item) =>
+            navlinks.map((item) =>
                 {
                     return(
                 <Link
@@ -45,7 +45,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div className="md:hidden absolute top-16 left-0 w-full bg-white/10 backdrop-blur-lg border-b border-white/20 shadow-md p-4 flex flex-col items-center space-y-4 rounded-b-2xl">
-          {['Home', 'Skills', 'Work', 'Achievements', 'Contact'].map((item) => (
+          {navlinks.map((item) => (
             <Link
               key={item}
               href={`#${item.toLowerCase()}`}
