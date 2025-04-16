@@ -27,18 +27,25 @@ const data = {
     ,
     "projects" : [
         {
-          title: "XSampatti",
-          link:"https://github.com/bhutanidev/XSampatti-backend",
-          description: "A smart expense tracker to manage finances effortlessly. Track expenses in real time, visualize spending with graphs, and gain budgeting insights.",
-          image: "/expenseTracker.jpeg",
-          technologies: ["JavaScript", "React.js", "Node.js","MongoDB"],
-        },
+          title: "CodeShare",
+          link: "https://github.com/bhutanidev/code-share",
+          description: "A real-time collaborative code editor built with Turborepo. Sync code across users using Yjs, WebSockets, and room-based sessions.",
+          image: "/codeshare.png",
+          technologies: ["TypeScript", "Next.js", "Turborepo", "Yjs", "WebSockets", "Prisma", "PostgreSQL"],
+        },            
         {
           title: "Second Brain",
           link:"https://github.com/bhutanidev/SecondBrain_backend",
           description: "An intelligent note-taking app with a built-in AI chatbot to help you stay organized and clear your doubts instantly.",
           image: "/SB.jpeg",
           technologies: ["TypeScript", "React.js" , "Node.js" , "Express js" , "Vector embeddings" , "MongoDb"],
+        },
+        {
+          title: "XSampatti",
+          link:"https://github.com/bhutanidev/XSampatti-backend",
+          description: "A smart expense tracker to manage finances effortlessly. Track expenses in real time, visualize spending with graphs, and gain budgeting insights.",
+          image: "/expenseTracker.jpeg",
+          technologies: ["JavaScript", "React.js", "Node.js","MongoDB"],
         },
         {
           title: "Conversify",
@@ -60,18 +67,11 @@ const data = {
           image: "/portfolio.png",
           technologies: ["Typescript","Framer-motion", "Next js"],
         },
-        {
-            title: "AIview",
-            link:"https://github.com/bhutanidev/AIview",
-            description: "AIview is an AI-powered interview simulation platform.",
-            image: "/interview.jpg",
-            technologies: ["Ongoing...", "React js" , "MongoDB" , "Node js" , "Express js"],
-          }
       ],
       achievements : [
         { title: "TCS CodeVita Finalist", desc: "Global Rank 134 among 1.6L+ participants in CodeVita 2024.", icon: "🏆" },
         { title: "Pre Finalist in TIC", desc: "Top 7,000 out of 3L+ participants in Tata Imagination Challenge 2024.", icon: "💻" },
-        { title: "Knight on Leetcode , Pupil on CF", desc: "Top 5% on LeetCode.", icon: "⚔️" },
+        { title: "Knight on Leetcode , Specialist on CF", desc: "Top 5% on LeetCode. 1418 on Codeforces", icon: "⚔️" },
         { title: "1st position in Code Clash", desc: "A competitive programming contest organized by IEEE GGSIPU", icon: "🚀" },
       ],
       experienceData : [
