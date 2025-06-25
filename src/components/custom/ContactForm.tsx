@@ -84,7 +84,7 @@ export default function ContactForm() {
           <Twitter className="h-6 w-6" />
           <span className="font-mono">X.com</span>
         </a>
-        <a href="https://drive.google.com/file/d/1iLJSx6IQy180I-gkhZcT5LoK2jSBgDXA/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 bg-primary p-3 rounded-lg hover:bg-green-600 transition">
+        <a href="https://drive.google.com/file/d/1JdMHNW6EN0PTJ2PTDKw3A9g-gke1U-wp/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 bg-primary p-3 rounded-lg hover:bg-green-600 transition">
           <Eye className="h-6 w-6" />
           <span className="font-mono">Resume</span>
         </a>
