@@ -27,6 +27,14 @@ const data = {
     ,
     "projects" : [
         {
+          title: "Rotflix",
+          link: "https://github.com/bhutanidev/flix-backend",
+          url:"https://www.rotflix.xyz/",
+          description: "Full-stack video streaming platform with adaptive quality, secure access, and CDN-based delivery.",
+          image: "/rotflix.png",
+          technologies: ["TypeScript", "Next.js", "Node.js", "FFmpeg", "AWS S3", "CloudFront", "Docker"]
+        },
+        {
           title: "CodeShare",
           link: "https://github.com/bhutanidev/code-share",
           description: "A real-time collaborative code editor built with Turborepo. Sync code across users using Yjs, WebSockets, and room-based sessions.",
@@ -59,19 +67,13 @@ const data = {
           description: "A decentralized circular marketplace on the Eth blockchain for pre-owned goods with an extension that finds similar pre-owned items by scraping products.",
           image: "/reval.png",
           technologies: ["JavaScript", "React.js", "Node.js","MongoDB"],
-        },
-        {
-          title: "Portfolio",
-          link:"https://github.com/bhutanidev/portfolio",
-          description: "A sleek, responsive portfolio showcasing skills, projects, and experience.",
-          image: "/portfolio.png",
-          technologies: ["Typescript","Framer-motion", "Next js"],
-        },
+        }
+
       ],
       achievements : [
         { title: "TCS CodeVita Finalist", desc: "Global Rank 134 among 1.6L+ participants in CodeVita 2024.", icon: "🏆" },
         { title: "Pre Finalist in TIC", desc: "Top 7,000 out of 3L+ participants in Tata Imagination Challenge 2024.", icon: "💻" },
-        { title: "Knight on Leetcode , Specialist on CF", desc: "Top 5% on LeetCode. 1418 on Codeforces", icon: "⚔️" },
+        { title: "Knight on Leetcode , Specialist on CF", desc: "Top 4% on LeetCode. 1418 on Codeforces", icon: "⚔️" },
         { title: "1st position in Code Clash", desc: "A competitive programming contest organized by IEEE GGSIPU", icon: "🚀" },
       ],
       experienceData : [
