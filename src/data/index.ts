@@ -27,6 +27,13 @@ const data = {
     ,
     "projects" : [
         {
+          title: "Uptime",
+          link:"https://github.com/bhutanidev/uptime",
+          description: "A modern, full-stack uptime monitoring system built. Monitor HTTP services, track incidents in real-time, and view statuses on a clean dashboard.",
+          image: "/up.png",
+          technologies: ["Redis Streams" ,"React", "Express.js" , "TypeScript" , "Turborepo"],
+        },
+        {
           title: "Rotflix",
           link: "https://github.com/bhutanidev/flix-backend",
           url:"https://www.rotflix.xyz/",
@@ -41,13 +48,6 @@ const data = {
           image: "/codeshare.png",
           technologies: ["TypeScript", "Next.js", "Turborepo", "Yjs", "WebSockets", "Prisma", "PostgreSQL"],
         },            
-        {
-          title: "Second Brain",
-          link:"https://github.com/bhutanidev/SecondBrain_backend",
-          description: "An intelligent note-taking app with a built-in AI chatbot to help you stay organized and clear your doubts instantly.",
-          image: "/SB.jpeg",
-          technologies: ["TypeScript", "React.js" , "Node.js" , "Express js" , "Vector embeddings" , "MongoDb"],
-        },
         {
           title: "XSampatti",
           link:"https://github.com/bhutanidev/XSampatti-backend",
@@ -73,7 +73,7 @@ const data = {
       achievements : [
         { title: "TCS CodeVita Finalist", desc: "Global Rank 134 among 1.6L+ participants in CodeVita 2024.", icon: "🏆" },
         { title: "Pre Finalist in TIC", desc: "Top 7,000 out of 3L+ participants in Tata Imagination Challenge 2024.", icon: "💻" },
-        { title: "Knight on Leetcode , Specialist on CF", desc: "Top 4% on LeetCode. 1418 on Codeforces", icon: "⚔️" },
+        { title: "Knight on Leetcode , Specialist on CF", desc: "Top 3% on LeetCode. 1418 on Codeforces", icon: "⚔️" },
         { title: "1st position in Code Clash", desc: "A competitive programming contest organized by IEEE GGSIPU", icon: "🚀" },
       ],
       experienceData : [
