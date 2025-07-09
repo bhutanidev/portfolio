@@ -34,7 +34,7 @@ export default function Projects() {
           >
             <Card className="bg-black h-full mx-3 md:mx-0 text-white p-4 rounded-xl shadow-lg overflow-hidden">
               {/* Image */}
-              <div className="hidden md:block relative w-full h-40 rounded-lg overflow-hidden">
+              <div className=" md:block relative w-full h-40 rounded-lg overflow-hidden">
                 <Image
                   src={project.image}
                   alt={project.title}
