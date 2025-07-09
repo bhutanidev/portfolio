@@ -19,7 +19,7 @@ const data = {
         },        {
             "name":"x.com",
             "icon":"/xcom.png",
-            "url":"https://x.com/dev_bhutan10"
+            "url":"https://x.com/dev_bhutani10"
         },
     ],
     "skills":["C++","Javascript", "Typescript" , "React.js", "Next.js", "Node.js",
